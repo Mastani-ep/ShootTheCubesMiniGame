@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Shoot the cubes - minigame</title>
+		<link rel="stylesheet" href='static/style.css' />
+	</head>
+	<body>
+		<div id="blocker">
+			<div id="instructions">
+				<span style="font-size:40px"><b>SHOOT THE CUBES</b></span>
+				<br/>
+				<span style="font-size:30px"> Click to play </span>
+				<br />
+				(W, A, S, D = Move, SPACE = Jump, MOUSE = Look around)
+				<br />
+				(MOUSE: Right click: Shooting mode/zoom, Left click: Shoot)
+				<br />
+				Shoot all the cubes to win the game
+			</div>
+			<div id="score">
+				<h3 id="score_num"></h3>
+			</div>
+			<div id="victory">
+				<h1 id="victory_name" style="font-size:100px"></h1>
+			</div>
+		</div>
+
+		<script src="js/three.js"></script>
+		<script src="js/PointerLockControls.js"></script>
+		<script src="js/createWorld.js"></script>
+		<script src="js/gameplayFunctions.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
